@@ -1,0 +1,3 @@
+[submodule "assignment-3"]
+	path = hw/assignment-3
+	url = git@github.com:OlinDSA2024/Assignment03.git
