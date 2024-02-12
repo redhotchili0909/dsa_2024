@@ -1,3 +1,9 @@
 [submodule "assignment-3"]
 	path = hw/assignment-3
 	url = git@github.com:OlinDSA2024/Assignment03.git
+[submodule "Assignment03"]
+	path = Assignment03
+	url = git@github.com:redhotchili0909/Assignment03.git
+[submodule "hw/Assignment03"]
+	path = hw/Assignment03
+	url = git@github.com:redhotchili0909/Assignment03.git
