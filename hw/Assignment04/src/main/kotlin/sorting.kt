@@ -1,3 +1,9 @@
+/**
+ * Sorts an array using heap sort algorithm.
+ *
+ * @param arr The array of integers to be sorted.
+ * @return A new sorted array of integers.
+ */
 fun heapSort(arr: IntArray): IntArray {
     val minHeap = MinHeap<Int>()
 
@@ -15,6 +21,12 @@ fun heapSort(arr: IntArray): IntArray {
     return sortedArray
 }
 
+
+/**
+ * Sorts an array in place using insertion sort algorithm.
+ *
+ * @param arr The array of integers to be sorted.
+ */
 fun insertionSort(arr: IntArray) {
     for (i in 1 until arr.size) {
         val key = arr[i]
@@ -28,8 +40,15 @@ fun insertionSort(arr: IntArray) {
     }
 }
 
-fun quickSort(arr: IntArray, min: Int, max: Int) {
 
+/**
+ * Sorts an array using quick sort algorithm.
+ *
+ * @param arr The array of integers to be sorted.
+ * @param min The starting index of the segment of the array to be sorted.
+ * @param max The ending index of the segment of the array to be sorted.
+ */
+fun quickSort(arr: IntArray, min: Int, max: Int) {
     fun part(arr: IntArray, low: Int, high: Int): Int {
         val pivot = arr[high]
         var i = (low - 1)
@@ -55,6 +74,11 @@ fun quickSort(arr: IntArray, min: Int, max: Int) {
     }
 }
 
+/**
+ * Sorts an array in place using selection sort algorithm.
+ *
+ * @param arr The array of integers to be sorted.
+ */
 fun selectionSort(arr: IntArray) {
     for (i in arr.indices) {
         var min = i
