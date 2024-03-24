@@ -40,15 +40,15 @@ The datasets used in this project for computing PageRank are sourced from the St
 Each plot represents a different dataset, illustrating the distribution of PageRank scores across nodes and highlighting the most influential nodes in the network.
 
 1. **Email EU-core Network:**
-   2. Graph Visulization: ![Diagram](src/results/visualizations/email-eu-viz.svg "Email EU-Core Network")
-   3. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_email-eu.svg)
+   1. Graph Visulization: ![Diagram](src/results/visualizations/email-eu-viz.svg "Email EU-Core Network")
+   2. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_email-eu.svg)
 
 2. **P2P Gnutella24 Network:**
-    2. Graph Visulization: ![Diagram](src/results/visualizations/p2p-gnutella08.svg "P2P Gnutella08 Network")
-    3. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_p2p-gnutella08.svg)
+    1. Graph Visulization: ![Diagram](src/results/visualizations/p2p-gnutella08.svg "P2P Gnutella08 Network")
+    2. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_p2p-gnutella08.svg)
 3. **P2P Gnutella08 Network:**
-    2. Graph Visulization: ![Diagram](src/results/visualizations/p2p-gnutella24.svg "P2P Gnutella24 Network")
-    3. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_p2p-gnutella24.svg)
+    1. Graph Visulization: ![Diagram](src/results/visualizations/p2p-gnutella24.svg "P2P Gnutella24 Network")
+    2. Page Rank Results: ![PageRank Email Eu-core](src/results/visualizations/pagerank_p2p-gnutella24.svg)
 
 # References
 
