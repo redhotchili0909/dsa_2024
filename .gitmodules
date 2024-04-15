@@ -7,3 +7,6 @@
 [submodule "hw/Assignment03"]
 	path = hw/Assignment03
 	url = git@github.com:redhotchili0909/Assignment03.git
+[submodule "projects/pix-code"]
+	path = projects/pix-code
+	url = git@github.com:redhotchili0909/pix-code.git
